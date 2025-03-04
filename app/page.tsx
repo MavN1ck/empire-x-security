@@ -225,7 +225,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
           <div className="container px-4 md:px-6">
-            <div className="flex lg:flex-row md:flex-col sm:flex-col  items-center">
+            <div className="flex flex-col lg:flex-row md:flex-col sm:flex-col  items-center">
               <motion.div 
                 className="space-y-4"
                 initial={{ opacity: 0, y: 20 }}
