@@ -153,6 +153,7 @@ export default function Home() {
   }
 
   return (
+    <>
     <div className="flex min-h-screen flex-col">
       {/* Header/Navigation */}
       <motion.header 
@@ -224,7 +225,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+            <div className="flex lg:flex-row md:flex-col sm:flex-col  items-center">
               <motion.div 
                 className="space-y-4"
                 initial={{ opacity: 0, y: 20 }}
@@ -241,7 +242,7 @@ export default function Home() {
                     viewport={{ margin: "-100px" }}
                   >
                     <span className="block mb-2">Securing Businesses Against</span>
-                    <span className="block">Tomorrow's Cyber, Today!</span>
+                    <span className="block">Tomorrow's Cyber Threats, Today!</span>
                   </motion.h1>
                   <motion.p 
                     className="max-w-[600px] text-gray-300 md:text-xl mt-6"
@@ -664,5 +665,14 @@ export default function Home() {
                 </Link>
                 <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors duration-200">
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.4\
-
+                    <path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.4\"></path>
+                    </svg>
+                  </Link>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </footer>
+                  </div>
+                  </>
+                  )}
